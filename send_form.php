@@ -50,8 +50,9 @@ if ((isset($_POST['userName'])) && (isset($_POST['userName'])) && (isset($_POST[
     $rezultstatus = 0;
 }
 
-$r = array(
+/* $r = array(
     "rezultmes" => $rezultmes,
     "rezultstatus" => $rezultstatus
 );
-echo json_encode($r);
+echo json_encode($r); */
+echo "<h1>Отправка статус = $rezultstatus,<br>Сообщение = $rezultmes</h1>";
