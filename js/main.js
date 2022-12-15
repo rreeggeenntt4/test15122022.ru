@@ -55,10 +55,3 @@ function clearFilds() {
     document.getElementById("Password").value = "";
     document.getElementById("RePassword").value = "";
 }
-
-
-
-
-
-
-
