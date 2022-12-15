@@ -30,4 +30,6 @@
 
  - подключен bootstrap
 
+с переходом на новую страницу видео
+https://github.com/rreeggeenntt4/test15122022.ru/raw/main/media/2022-12-15%2020-03-50.mkv
 
