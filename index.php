@@ -11,29 +11,22 @@
 </head>
 
 <body id="body">
-  <script src="/js/bootstrap.bundle.min.js"></script>
-  <script src="/js/main.js"></script>
-
-
-
-
-
   <main class="col-10 col-sm-10 col-md-8 col-lg-6 col-xl-6 col-xxl-4 m-auto">
     <form name="mainform" action="send_form.php" method="post" class="p-4 p-sm-5 border rounded-3 bg-light needs-validation" onsubmit="return(validate());">
       <div class="form-floating mb-3">
-        <input type="text" class="form-control" id="userName" name="userName" placeholder="Имя" required autocomplete="off">
+        <input type="text" class="form-control" id="userName" name="userName" placeholder="Имя" required oninput="validate();">
         <label for="userName">Имя</label>
       </div>
       <div class="form-floating mb-3">
-        <input type="email" class="form-control" id="userEmail" name="userEmail" placeholder="name@example.com" required autocomplete="off">
+        <input type="email" class="form-control" id="userEmail" name="userEmail" placeholder="name@example.com" required oninput="validate();">
         <label for="userEmail">Email</label>
       </div>
       <div class="form-floating mb-3">
-        <input type="password" class="form-control" id="Password" name="Password" placeholder="Password" minlength="6" required autocomplete="off">
+        <input type="password" class="form-control" id="Password" name="Password" placeholder="Password" minlength="6" required oninput="validate();">
         <label for="Password">Password</label>
       </div>
       <div class="form-floating mb-5">
-        <input type="password" class="form-control" id="RePassword" name="RePassword" placeholder="RePassword" minlength="6" required autocomplete="off">
+        <input type="password" class="form-control" id="RePassword" name="RePassword" placeholder="RePassword" minlength="6" required oninput="validate();">
         <label for="RePassword">RePassword</label>
       </div>
 
@@ -47,6 +40,8 @@
     </form>
   </main>
 
+  <script src="/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/main.js"></script>
 
 </body>
 
